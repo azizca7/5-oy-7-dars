@@ -106,7 +106,7 @@ li {
 }
 
 .completed {
-  text-decoration: none;
+  text-decoration: line-through;
   color: #9e78cf;
 }
 
