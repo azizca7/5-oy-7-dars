@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- main.css -->
+    <link rel="stylesheet" href="style/main.css" />
+    <!-- normalize.css -->
+    <link rel="stylesheet" href="./style/normalize.css" />
+    <!-- fonts.css -->
+    <link rel="stylesheet" href="./style/fonts.css" />
+    <!-- main.min.css -->
+    <link rel="stylesheet" href="./style/main.min.css" />
+    <title>5-oy 7-dars</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-title">
+        <h1>Todo App</h1>
+        <p>Lucas Viga</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box">
+        <div class="task-box">
+          <div class="input_btn">
+            <input type="text" placeholder="Add a new task" />
+            <button class="confirmation-btn" type="submit">+</button>
+          </div>
+
+          <div class="done_box"></div>
+          <h3>Tasks to do - <span id="taskCount">0</span></h3>
+          <ul id="taskList"></ul>
+
+          <h3>Done - <span id="doneCount">0</span></h3>
+          <ul id="doneList"></ul>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
